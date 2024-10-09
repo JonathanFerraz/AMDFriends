@@ -90,3 +90,5 @@ Refer to the LICENSE file.
 ## Credits
 
 Tomnic, Tomnic and Tomnic again. You don't know him? He's [this guy](https://www.macos86.it/profile/69-tomnic/).
+
+amdfriendly is based on [AMDFriend](https://github.com/NyaomiDEV/AMDFriend)
