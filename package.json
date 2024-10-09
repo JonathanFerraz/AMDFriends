@@ -1,11 +1,18 @@
 {
-  "name": "amdfriend",
-  "version": "1.0.2",
+  "name": "friendlyamd",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "bin": "dist/cli.js",
   "license": "MPL-2.0",
+  "keywords": [
+    "friendlyamd",
+    "amdfriendly",
+    "amd",
+    "friendly",
+    "friend"
+  ],
   "author": {
-    "name": "Naomi Calabretta"
+    "name": "Jonathan Ferraz"
   },
   "files": [
     "dist/**",

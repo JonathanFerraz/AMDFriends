@@ -1,10 +1,10 @@
-# AMDFriend
+# FriendlyAMD
 
 Note: All of this is experimental software and it should only be referred to for the purpose of testing.
 
-The issue section has been disabled because people started reporting issues with single apps and libraries, and not with AMDFriend. This is EXPERIMENTAL SOFTWARE and NO SUPPORT FOR SPECIFIC LIBRARIES WAS EVER GIVEN. Again, you are on your own.
+The issue section has been disabled because people started reporting issues with single apps and libraries, and not with FriendlyAMD. This is EXPERIMENTAL SOFTWARE and NO SUPPORT FOR SPECIFIC LIBRARIES WAS EVER GIVEN. Again, you are on your own.
 
-If there are issues SPECIFIC to AMDFriend I am sure y'all will know how to reach me eventually.
+If there are issues SPECIFIC to FriendlyAMD I am sure y'all will know how to reach me eventually.
 
 ## Introduction
 
@@ -28,19 +28,19 @@ You will need:
 - Node.js: `brew install nodejs`
 - Yarn (optional, used for contributions): `brew install yarn`
 
-Install (and update) AMDFriend on your system with this command:
+Install (and update) FriendlyAMD on your system with this command:
 ```
-npm install -g amdfriend
+npm install -g friendlyamd
 ```
 
 Or, if you've installed yarn
 ```
-yarn global add amdfriend
+yarn global add friendlyamd
 ```
 
 Use it with:
 ```
-amdfriend "/path/to/your/library.dylib"
+friendlyamd "/path/to/your/library.dylib"
 ```
 
 ## Observed quirks
@@ -65,8 +65,8 @@ amdfriend "/path/to/your/library.dylib"
 If you want to contribute to this project, clone it to your computer!
 
 ```sh
-git clone https://github.com/NyaomiDEV/AMDFriend
-cd AMDFriend
+git clone https://github.com/JonathanFerraz/FriendlyAMD
+cd FriendlyAMD
 yarn
 yarn test "/path/to/your/library.dylib"
 ```
@@ -75,12 +75,12 @@ yarn test "/path/to/your/library.dylib"
 
 Scan for patchable files in a directory:
 ```
-amdfriend --dry-run --directories /path/to/dir /path/to/another/dir | grep "Routines found"
+friendlyamd --dry-run --directories /path/to/dir /path/to/another/dir | grep "Routines found"
 ```
 
 Scan for patchable files and patch them (NOT recommended, might use `sudo` in front of the command if patching directories not owned by the current user):
 ```
-amdfriend --in-place --backup --sign --directories /path/to/dir /path/to/another/dir
+friendlyamd --in-place --backup --sign --directories /path/to/dir /path/to/another/dir
 ```
 
 ## License
